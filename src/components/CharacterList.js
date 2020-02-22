@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import Button from './Button';
 
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect  
@@ -17,14 +18,20 @@ export default function CharacterList() {
   }, []);
 
   return (
+    
+      
+   
     <section className="character-list">
+     
       {character.map( people => 
         <div key={people.id}>
           <h1>Name:  {people.name} </h1>
           <p> Gender: {people.gender} </p>
-          <img src={people.image} />
+          <img src={people.image} alt='' />
         </div>
         )}
+       
     </section>
+  
   );
 }

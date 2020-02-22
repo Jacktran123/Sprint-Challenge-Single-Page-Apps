@@ -4,6 +4,37 @@ body {
   font-family: sans-serif;
 }
 
+.img-button{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5N77tko0t08oHu8O50yrukqlTjnJWZ_7cHlYeHGRnl0huqImV');
+  cursor: pointer; 
+  border-radius: 90%;
+  height: 13rem;
+   position: absolute;
+  left: 60rem;
+  width: 15rem;
+  top: 10rem;
+
+  -webkit-text-stroke: 2px red;
+  -webkit-text-fill: 5px white;
+  -webkit-text-width: 5px;
+  
+  font-size: 1.6rem;
+}
+
+.home{
+  top: 25rem;
+}
+
+.search{
+  top: 40rem;
+}
+
+.img-button:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
 main {
   width: 85vw;
   min-height: 80vh;
@@ -27,8 +58,8 @@ main {
 .grid-view div.card.ui {
   margin: 1.25rem;
 }
-/*
-.main-img {
+
+/* .main-img {
   display: block;
   border-radius: 100%;
   margin: 0 auto;
@@ -37,3 +68,4 @@ main {
 header h1 {
   text-align: center;
 }
+
