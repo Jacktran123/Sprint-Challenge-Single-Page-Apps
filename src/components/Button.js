@@ -11,9 +11,7 @@ const Button=()=>{
      <Link to='/'>
        <button className='img-button home'> <span>Welcome Page</span></button>
      </Link>
-       <Link to='/'>
-       <button className='img-button search'> <span>Search Form</span></button>
-       </Link>
+      
        </div>
     
     
